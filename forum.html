@@ -8,15 +8,34 @@
     <link href="/style.css" rel="stylesheet">
 </head>
 <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">GAME SPHERE</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="torneios.html">EVENTS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="forum.html">FORUM</a></li>
+                                <li class="nav-item"><a class="nav-link" href="loja.html">SHOP</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contactos.html">CONTACTS</a></li>
+                        
+                        <!-- Shopping Cart Button -->
+                        <li class="nav-item">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                <i class="bi bi-cart"></i> Shopping Cart
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     <!-- Container principal -->
     <div class="container py-5">
         <h1>Fórum Gamer</h1>
         
-        <!-- Container para exibir posts -->
-        <div id="posts-container" class="mb-5">
-            <!-- Posts carregados pela API aparecerão aqui -->
-        </div>
-
         <!-- Formulário para criar um novo post -->
         <form id="new-post-form">
             <div class="mb-3">
@@ -29,6 +48,42 @@
             </div>
             <button type="submit" class="btn btn-primary">Postar</button>
         </form>
+
+        <!-- Container para exibir posts -->
+        <div id="posts-container" class="mt-5">
+            <!-- Posts carregados pela API aparecerão aqui -->
+            <!-- Example Post with Comments -->
+            <div class="post" id="post-1">
+                <div class="post-header">
+                    <h5>Exemplo de Título do Post</h5>
+                    <p class="text-muted">Postado por Usuário XYZ</p>
+                </div>
+                <div class="post-body">
+                    <p>Este é o conteúdo do post. Aqui você pode compartilhar suas experiências, pensamentos ou dúvidas sobre o jogo.</p>
+                </div>
+
+                <!-- Comentários -->
+                <div class="comments-section">
+                    <h6>Comentários:</h6>
+                    <div class="comment">
+                        <p><strong>Usuário 1:</strong> Muito interessante! Adorei a sua opinião.</p>
+                    </div>
+                    <div class="comment">
+                        <p><strong>Usuário 2:</strong> Concordo, isso realmente muda a perspectiva do jogo!</p>
+                    </div>
+
+                    <!-- Formulário para adicionar comentário -->
+                    <form class="add-comment-form">
+                        <div class="mb-3">
+                            <label for="comment-body" class="form-label">Comente</label>
+                            <textarea class="form-control" id="comment-body" rows="2" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-primary">Comentar</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <!-- Linkando o script -->
