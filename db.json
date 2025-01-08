@@ -1,0 +1,14 @@
+{
+    "posts": [
+        { "id": 1, "title": "Belo Forum", "body": "Adorei este forum, Game Sphere! Aqui posso dizer tudo o que quero e ainda me pagam um fino no final! ", "userId": 1 },
+        { "id": 2, "title": "Diablo 4", "body": "Já viram a nova exansão? Depois de ganhar à Lilith nunca pensei também encontrar o Asmodeus", "userId": 1 },
+        { "id": 3, "title": "Oblivion", "body": "Adorooooooooooo", "userId": 1 }
+    ],
+    "comments": [
+        { "id": 1, "postId": 1, "name": "Filipe", "body": "Vamos embora equipa!!!!" },
+        { "id": 2, "postId": 2, "name": "Rui", "body": "Realmente esta nova expansão está muito boa" },
+        { "id": 3, "postId": 2, "name": "Bruno", "body": "Pena que não tenha encontrado muitas diferenças para a anterior, mesmo assim vale a pena :)" },
+        { "id": 4, "postId": 2, "name": "Ana", "body": "A trilha sonora desta expansão é incrível!" },
+        { "id": 5, "postId": 2, "name": "João", "body": "Concordo com o Bruno, mas acho que o visual das novas áreas está muito bom." }
+    ]
+}
