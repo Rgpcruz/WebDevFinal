@@ -1,81 +1,153 @@
 /*------------General parameters------------------------*/
- 
-h1, h2, h3, h4, h5, h6 {
+
+body {
+
+    background-color:#181C23
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Montserrat;
-    }
-     
-    h1 {
-        font-weight: 700;
-    }
-     
-    h2, h3, h4, h5, h6 {
-        font-weight: 600;
-    }
-     
-    p {
-        font-family: open sans;
-     
-    }
-     
-    /*------------Navbar------------------------*/
-     
-    .logo {
-        width: 28px;
-        height: 28px;
-        background-color: white;
-        border-radius: 50%;
-        background: radial-gradient(circle at 30% 30%, #ffffff, #747474);
-        margin: 0 8px;
-    }
-     
-    h1 {
-        font-style: italic;
-        font-size: 24px;
-        margin: 0px;
-        padding: 0px;
-    }
-     
-    .icon-cart {
-        height: 20px;
-    }
-     
-    /*------------Hero Section------------------------*/
-     
-    .hero-background {
-        background: url('/media/img/hero-img.jpg') no-repeat center center;
-        height: 500px;
-        background-size: cover;
-    }
-     
-    .hero-intro {
-     
-    }
-     
-     
-     
-     
-    /* Section Titles */
-    .section-title {
-        margin: 40px 0;
-        text-align: center;
-    }
-     
-    /* Footer */
-    .footer {
-        background-color: #333;
-        color: white;
-        padding: 20px 0;
-        text-align: center;
-    }
-     
-    /* Carousel */
-    #carouselExample {
-        max-width: 600px;
-        margin: 0 auto;
-    }
-     
-    /* Card Customization */
-    .card {
-        margin-bottom: 20px;
-    }
-     
+
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+p {
+    font-family: open sans;
+
+}
+
+/*------------Navbar------------------------*/
+
+.logo {
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #ffffff, #747474);
+    margin: 0 8px;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.icon-cart {
+    height: 20px;
+}
+
+/*------------Hero Section------------------------*/
+
+.hero-background {
+    background: url('/media/img/hero-img.jpg') no-repeat center center;
+    height: 500px;
+    background-size: cover;
+    position: static;
+    align-content: center;
+}
+
+.hero-message-position {
+    max-width: 1400px;
+    justify-items: end;
+
+}
+
+.hero-text {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 400px;
+    height: auto;
+    padding: 50px;
+    border-radius: 18px;
+}
+
+.hero-text h2 {
+    margin-bottom: 20px;
+}
+
+/*------------Most Played------------------------*/
+
+#jogos h2 {
+    color: white;
+}
+    
+
+.fa-gamepad {
+    margin-left: 24px;
+}
+
+
+.bg-image {
+    width: 100%;
+    height: 300px;
+}
+
+.poster-one {
+    background-image: url('/media/img/most-played-hades.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.poster-two {
+    background-image: url('/media/img/most-played-tunic.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.poster-three {
+    background-image: url('/media/img/most-played-obra-din.webp');
+    background-size: cover;
+    background-position: center;
+}
+.poster-four {
+    background-image: url('/media/img/most-played-outer-wilds.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+/* Section Titles */
+.section-title {
+    margin: 40px 0;
+    text-align: left;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Carousel */
+#carouselExample {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Card Customization */
+.card {
+    margin-bottom: 20px;
+}
