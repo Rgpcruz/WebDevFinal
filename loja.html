@@ -22,30 +22,35 @@
     </style>
 </head>
 <body>
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-        <a class="navbar-brand" href="index.html">GAME SPHERE</a>
+        <div class="d-flex align-items-center">
+            <div class="navbar-brand logo"></div>
+            <a class="navbar-brand ms-2" href="/index.html">
+                <h1>GAME SPHERE</h1>
+            </a>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="torneios.html">EVENTS</a></li>
-                        <li class="nav-item"><a class="nav-link" href="forum.html">FORUM</a></li>
-                        <li class="nav-item"><a class="nav-link" href="loja.html">SHOP</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactos.html">CONTACTS</a></li>
-                
-                <!-- Shopping Cart Button -->
+                <li class="nav-item"><a class="nav-link" href="forum.html">FORUM</a></li>
+                <li class="nav-item"><a class="nav-link" href="loja.html">SHOP</a></li>
+                <li class="nav-item"><a class="nav-link" href="contactos.html">CONTACTS</a></li>
+                <!-- Shopping Cart Image Button -->
                 <li class="nav-item">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                        <i class="bi bi-cart"></i> Shopping Cart
-                    </button>
+                    <a href="#" class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <img class="icon-cart" src="/media/img/icon-cart.png" alt="Shopping Cart">
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
 
 <!-- Jogos Section -->
 <section id="jogos" class="py-5">

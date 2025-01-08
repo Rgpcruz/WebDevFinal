@@ -1,32 +1,81 @@
-/* Hero Section */
-.hero {
-    background: url('https://via.placeholder.com/1500x500') no-repeat center center;
-    background-size: cover;
-    color: white;
-    padding: 100px 0;
-}
-
-/* Section Titles */
-.section-title {
-    margin: 40px 0;
-    
-}
-
-/* Footer */
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-/* Carousel */
-#carouselExample {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-/* Card Customization */
-.card {
-    margin-bottom: 20px;
-}
+/*------------General parameters------------------------*/
+ 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+    }
+     
+    h1 {
+        font-weight: 700;
+    }
+     
+    h2, h3, h4, h5, h6 {
+        font-weight: 600;
+    }
+     
+    p {
+        font-family: open sans;
+     
+    }
+     
+    /*------------Navbar------------------------*/
+     
+    .logo {
+        width: 28px;
+        height: 28px;
+        background-color: white;
+        border-radius: 50%;
+        background: radial-gradient(circle at 30% 30%, #ffffff, #747474);
+        margin: 0 8px;
+    }
+     
+    h1 {
+        font-style: italic;
+        font-size: 24px;
+        margin: 0px;
+        padding: 0px;
+    }
+     
+    .icon-cart {
+        height: 20px;
+    }
+     
+    /*------------Hero Section------------------------*/
+     
+    .hero-background {
+        background: url('/media/img/hero-img.jpg') no-repeat center center;
+        height: 500px;
+        background-size: cover;
+    }
+     
+    .hero-intro {
+     
+    }
+     
+     
+     
+     
+    /* Section Titles */
+    .section-title {
+        margin: 40px 0;
+        text-align: center;
+    }
+     
+    /* Footer */
+    .footer {
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+     
+    /* Carousel */
+    #carouselExample {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+     
+    /* Card Customization */
+    .card {
+        margin-bottom: 20px;
+    }
+     
