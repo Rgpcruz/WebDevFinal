@@ -1,7 +1,13 @@
 /*------------General parameters------------------------*/
 
 colours{
-    1A1D25
+    background-color: #1A1D25; /*pagebackground*/
+    background-color: #0A0B0E; /*hero message*/
+    background-color: #181C23; /**/
+    background-color: #2F3541; /*card buttons*/
+    background-color: #1A1D25; 
+    background-color: #1A1D25; 
+
 }
 
 
@@ -91,7 +97,7 @@ h1 {
 
 /*------------Most Played------------------------*/
 
-#most-played h2 {
+h2 {
     color: white;
 }
   
@@ -99,9 +105,20 @@ h1 {
     margin-left: 24px;
 }
 
-
 .card {
-    background-color: ;
+    background-color: #181C23;
+    margin-bottom: 20px;
+    color: #ffffff;
+    
+}
+
+.card p {
+    height: 80px;
+}
+
+.btn {
+    background-color: #2F3541;
+    color: #ffffff;
 }
 
 .bg-image {
@@ -132,9 +149,51 @@ h1 {
     background-position: center;
 }
 
+/*------------Coming up------------------------*/
+
+.coming-up{
+
+    max-width: 1300px;
+    margin: auto;
+    color: #ffffff;
+    
+}
+
+.coming-up p {
+    font-size: 12px;
+    margin-bottom: 8px;
+
+}
+
+.coming-up h4 {
+    font-size: 14px;
+
+}
+
+small {
+    font-size: 8px;
+} 
+
+.coming-up-card {
+    background-color: #2F3541;
+    width: 800px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+}
 
 
+.coming-up-img {
+    width: 50px;
+    height: inherit;
+    background-color: aqua;
+}
 
+.coming-up-card-description {
+    padding: 12px;
+
+}
 
 /* Section Titles */
 .section-title {
@@ -157,6 +216,3 @@ h1 {
 }
 
 /* Card Customization */
-.card {
-    margin-bottom: 20px;
-}
