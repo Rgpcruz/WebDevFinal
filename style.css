@@ -1,5 +1,10 @@
 /*------------General parameters------------------------*/
 
+colours{
+    1A1D25
+}
+
+
 body {
 
     background-color:#181C23
@@ -72,11 +77,12 @@ h1 {
 }
 
 .hero-text {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 400px;
     height: auto;
-    padding: 50px;
+    padding: 32px;
     border-radius: 18px;
+    color: white;
 }
 
 .hero-text h2 {
@@ -85,15 +91,18 @@ h1 {
 
 /*------------Most Played------------------------*/
 
-#jogos h2 {
+#most-played h2 {
     color: white;
 }
-    
-
+  
 .fa-gamepad {
     margin-left: 24px;
 }
 
+
+.card {
+    background-color: ;
+}
 
 .bg-image {
     width: 100%;
