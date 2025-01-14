@@ -10,7 +10,6 @@ colours{
 
 }
 
-
 body {
 
     background-color:#181C23
@@ -183,7 +182,6 @@ small {
 
 }
 
-
 .coming-up-img {
     width: 50px;
     height: inherit;
@@ -216,3 +214,18 @@ small {
 }
 
 /* Card Customization */
+
+
+/*---------------store------------------*/
+
+.offcanvas.offcanvas-end {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 300px; /* Set width for cart */
+}
+
+/* Make sure the shopping cart button is aligned on the right */
+.navbar-nav .nav-item:last-child {
+    margin-left: auto;
+}
