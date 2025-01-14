@@ -7,14 +7,17 @@ colours{
     background-color: #2F3541; /*card buttons*/
     background-color: #1A1D25; 
     background-color: #1A1D25; 
-
 }
 
-body {
 
+body {
     background-color:#181C23
 }
 
+
+h1 {
+    font-weight: 700;
+}
 
 h1,
 h2,
@@ -26,9 +29,6 @@ h6 {
 
 }
 
-h1 {
-    font-weight: 700;
-}
 
 h2,
 h3,
@@ -38,9 +38,16 @@ h6 {
     font-weight: 600;
 }
 
+/*------------font-awesome h spacing------------------------*/
+
+.fa-solid {
+    margin: 0 16px;
+}
+
+/*------------all website's P's------------------------*/
+
 p {
     font-family: open sans;
-
 }
 
 /*------------Navbar------------------------*/
@@ -65,7 +72,7 @@ h1 {
     height: 20px;
 }
 
-/*------------Hero Section------------------------*/
+/*------------Index / Hero Section------------------------*/
 
 .hero-background {
     background: url('/media/img/hero-img.jpg') no-repeat center center;
@@ -94,7 +101,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-/*------------Most Played------------------------*/
+/*------------Index / Most Played------------------------*/
 
 h2 {
     color: white;
@@ -148,7 +155,7 @@ h2 {
     background-position: center;
 }
 
-/*------------Coming up------------------------*/
+/*------------Index / Coming up------------------------*/
 
 .coming-up{
 
@@ -175,10 +182,9 @@ small {
 
 .coming-up-card {
     background-color: #2F3541;
-    width: 800px;
     height: auto;
-    padding: 0;
-    margin: 0;
+    
+    max-width: 400px;
 
 }
 
@@ -195,7 +201,7 @@ small {
 
 /* Section Titles */
 .section-title {
-    margin: 40px 0;
+    margin: 60px 0 40px 0;
     text-align: left;
 }
 
@@ -216,7 +222,7 @@ small {
 /* Card Customization */
 
 
-/*---------------store------------------*/
+/*---------------Store------------------*/
 
 .offcanvas.offcanvas-end {
     top: 0;
