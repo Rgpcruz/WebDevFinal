@@ -1,27 +1,24 @@
 /*------------General parameters------------------------*/
 
-colours{
-    background-color: #1A1D25; /*pagebackground*/
-    background-color: #0A0B0E; /*hero message*/
-    background-color: #181C23; /**/
-    background-color: #2F3541; /*card buttons*/
-    background-color: #1A1D25; 
-    background-color: #1A1D25; 
+colours {
+  background-color: #1a1d25; /*pagebackground*/
+  background-color: #0a0b0e; /*hero message*/
+  background-color: #181c23; /**/
+  background-color: #2f3541; /*card buttons*/
+  background-color: #1a1d25;
+  background-color: #1a1d25;
 }
-
-
 
 body {
-    background-color:#181C23
-}
-
-
-h1 {
-    font-weight: 700;
+  background-color: #181c23;
 }
 
 h1 {
-    font-weight: 700;
+  font-weight: 700;
+}
+
+h1 {
+  font-weight: 700;
 }
 
 h1,
@@ -30,284 +27,271 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Montserrat;
-
+  font-family: Montserrat;
 }
-
 
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-weight: 600;
+  font-weight: 600;
 }
-
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-
 
 /*------------font-awesome h spacing------------------------*/
 
 .fa-solid {
-    margin: 0 16px;
+  margin: 0 16px;
 }
 
 /*------------all website's P's------------------------*/
 
 p {
-    font-family: open sans;
+  font-family: open sans;
 }
 
 /*------------Navbar------------------------*/
 
 .logo {
-    width: 28px;
-    height: 28px;
-    background-color: white;
-    border-radius: 50%;
-    background: radial-gradient(circle at 30% 30%, #ffffff, #747474);
-    margin: 0 8px;
+  width: 28px;
+  height: 28px;
+  background-color: white;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #ffffff, #747474);
+  margin: 0 8px;
 }
 
 h1 {
-    font-style: italic;
-    font-size: 24px;
-    margin: 0px;
-    padding: 0px;
+  font-style: italic;
+  font-size: 24px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.shopping-cart-container{
+.shopping-cart-container {
   background-color: aqua;
 }
 
 .icon-cart {
-    height: 20px;
+  height: 20px;
 }
 
 /*------------Index / Hero Section------------------------*/
 /*------------Index / Hero Section------------------------*/
 
 .hero-background {
-    background: url('./media/img/hero-img.jpg') no-repeat center center;
-    height: 500px;
-    background-size: cover;
-    position: static;
-    align-content: center;
+  background: url("./media/img/hero-img.jpg") no-repeat center center;
+  height: 500px;
+  background-size: cover;
+  position: static;
+  align-content: center;
 }
 
 .hero-message-position {
-    max-width: 1400px;
-    justify-items: end;
-
+  max-width: 1400px;
+  justify-items: end;
 }
 
 .hero-text {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 400px;
-    height: auto;
-    padding: 32px;
-    border-radius: 18px;
-    color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 400px;
+  height: auto;
+  padding: 32px;
+  border-radius: 18px;
+  color: white;
 }
 
 .hero-text h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 /*------------Index / Most Played------------------------*/
 /*------------Index / Most Played------------------------*/
 
 h2 {
-    color: white;
+  color: white;
 }
-  
+
 .fa-gamepad {
-    margin-left: 24px;
+  margin-left: 24px;
 }
 
 .card {
-    background-color: #181C23;
-    margin-bottom: 20px;
-    color: #ffffff;
-    
+  background-color: #181c23;
+  margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .card p {
-    height: 80px;
+  height: 80px;
 }
 
 .btn {
-    margin-top: 5px;
-    background-color: #2F3541;
-    color: #ffffff;
+  margin-top: 5px;
+  background-color: #2f3541;
+  color: #ffffff;
 }
 
 .bg-image {
-    width: 100%;
-    height: 300px;
+  width: 100%;
+  height: 300px;
 }
 
 .poster-one {
-    background-image: url('./media/img/most-played-hades.jpg');
-    background-size: cover;
-    background-position: center;
+  background-image: url("./media/img/most-played-hades.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .poster-two {
-    background-image: url('./media/img/most-played-tunic.webp');
-    background-size: cover;
-    background-position: center;
+  background-image: url("./media/img/most-played-tunic.webp");
+  background-size: cover;
+  background-position: center;
 }
 
 .poster-three {
-    background-image: url('./media/img/most-played-obra-din.webp');
-    background-size: cover;
-    background-position: center;
+  background-image: url("./media/img/most-played-obra-din.webp");
+  background-size: cover;
+  background-position: center;
 }
 .poster-four {
-    background-image: url('./media/img/most-played-outer-wilds.webp');
-    background-size: cover;
-    background-position: center;
+  background-image: url("./media/img/most-played-outer-wilds.webp");
+  background-size: cover;
+  background-position: center;
 }
-
 
 /*------------Index / Coming up------------------------*/
 
 .coming-up {
-    max-width: 1300px;
-    margin: auto;
-    color: #ffffff;
+  max-width: 1300px;
+  margin: auto;
+  color: #ffffff;
 }
 
 .coming-up p {
-    font-size: 12px;
-    margin-bottom: 8px;
+  font-size: 12px;
+  margin-bottom: 8px;
 }
 
 .coming-up h4 {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 small {
-    font-size: 8px;
-} 
+  font-size: 8px;
+}
 
 .coming-up-card {
-    background-color: #2F3541;
-    height: auto;
-    max-width: 350px;
-    flex: 1; 
-    margin: 8px; 
+  background-color: #2f3541;
+  height: auto;
+  max-width: 350px;
+  flex: 1;
+  margin: 8px;
 }
 
 .coming-up-img {
-    width: 100px;
-    height: inherit;
-    background-size: cover;
-    background-position: center;
+  width: 100px;
+  height: inherit;
+  background-size: cover;
+  background-position: center;
 }
 
 .event-one {
-    background-image: url("https://cdn2.unrealengine.com/fortnite-fncs-2025-champion-drake-community-cup-1920x1080-3a82adf7d1b7.jpg");
+  background-image: url("https://cdn2.unrealengine.com/fortnite-fncs-2025-champion-drake-community-cup-1920x1080-3a82adf7d1b7.jpg");
 }
 
 .event-two {
-    background-image: url("https://admin.esports.gg/wp-content/uploads/2023/09/pasted-image-0-1-968x544.jpg");
+  background-image: url("https://admin.esports.gg/wp-content/uploads/2023/09/pasted-image-0-1-968x544.jpg");
 }
 
 .event-three {
-    background-image: url("https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cfb6ebb769e22d1acdd43251129204484bab65ff-1920x1080.jpg");
+  background-image: url("https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cfb6ebb769e22d1acdd43251129204484bab65ff-1920x1080.jpg");
 }
 
 .coming-up-card-description {
-    padding: 24px;
+  padding: 24px;
 }
 
 .coming-up-card-description h4 {
-    margin: 12px 0;
+  margin: 12px 0;
 }
 
 @media (max-width: 576px) {
-    .coming-up-card {
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-right: 0;
-        margin-bottom: 16px; 
-    }
+  .coming-up-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
 
-    .d-flex {
-        flex-direction: column;
-    
-    }
+  .d-flex {
+    flex-direction: column;
+  }
 }
 /*---------------------------------*/
 
 /* Section Titles */
 .section-title {
-    margin: 60px 0 40px 0;
-    margin: 60px 0 40px 0;
-    text-align: left;
+  margin: 60px 0 40px 0;
+  margin: 60px 0 40px 0;
+  text-align: left;
 }
 
 /*---------------Footer------------------*/
 
 footer {
-    background-color: #333;
-    color: white;
-    width: 100%;
-    height: 100px;
-    margin: 0;
+  background-color: #333;
+  color: white;
+  width: 100%;
+  height: 100px;
+  margin: 0;
 }
 
 .all-rights {
-    font-size: 12px;
-    height: 100%;  /* Make it full height to push content to bottom */
+  font-size: 12px;
+  height: 100%; /* Make it full height to push content to bottom */
 }
 
 .social-icons {
-    padding-top: 1rem;  /* Add some space from the top */
+  padding-top: 1rem; /* Add some space from the top */
 }
 
 footer .fa-brands {
-    padding: 0 8px;
+  padding: 0 8px;
 }
 
 .all-rights {
-    font-size: 12px;
-    
-    
+  font-size: 12px;
 }
 
 footer .fa-brands {
-    padding: 0 8px;
-    
-
+  padding: 0 8px;
 }
 
 /* Carousel */
 #carouselExample {
-    max-width: 600px;
-    margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 /* Card Customization */
-
 
 /*---------------Store------------------*/
 /*---------------Store------------------*/
 
 .offcanvas.offcanvas-end {
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 300px; /* Set width for cart */
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 300px; /* Set width for cart */
 }
 
 /* Make sure the shopping cart button is aligned on the right */
 .navbar-nav .nav-item:last-child {
-    margin-left: auto;
+  margin-left: auto;
 }
