@@ -1,21 +1,20 @@
-// Add an event listener for form submission
 document.querySelector("form").addEventListener("submit", function (event) {
-  event.preventDefault(); // Prevent the default form submission
+  event.preventDefault(); // Prevent default form submission
 
   // Get form values
   let name = document.getElementById("name").value;
   let email = document.getElementById("email").value;
   let message = document.getElementById("message").value;
 
-  // Simple validation to check if fields are not empty
+  // Check if all fields are filled
   if (name && email && message) {
-    // Show an alert with the entered details
-    alert(`Message Sent!\nName: ${name}\nEmail: ${email}\nMessage: ${message}`);
+    // Show success alert
+    alert("Message Sent Successfully!");
 
-    // Optionally, clear the form after submission
+    // Optionally, clear the form
     document.querySelector("form").reset();
   } else {
-    // Show an alert if any field is empty
+    // Alert if fields are empty
     alert("Please fill in all fields.");
   }
 });
