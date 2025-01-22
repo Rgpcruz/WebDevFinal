@@ -38,6 +38,13 @@ h6 {
     font-weight: 600;
 }
 
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
 /*------------font-awesome h spacing------------------------*/
 
 .fa-solid {
@@ -66,6 +73,10 @@ h1 {
     font-size: 24px;
     margin: 0px;
     padding: 0px;
+}
+
+.shopping-cart-container{
+  background-color: aqua;
 }
 
 .icon-cart {
@@ -159,23 +170,19 @@ h2 {
 
 /*------------Index / Coming up------------------------*/
 
-.coming-up{
-
+.coming-up {
     max-width: 1300px;
     margin: auto;
     color: #ffffff;
-    
 }
 
 .coming-up p {
     font-size: 12px;
     margin-bottom: 8px;
-
 }
 
 .coming-up h4 {
     font-size: 14px;
-
 }
 
 small {
@@ -185,20 +192,52 @@ small {
 .coming-up-card {
     background-color: #2F3541;
     height: auto;
-    
-    max-width: 400px;
-
+    max-width: 350px;
+    flex: 1; 
+    margin: 8px; 
 }
 
 .coming-up-img {
-    width: 50px;
+    width: 100px;
     height: inherit;
-    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+}
+
+.event-one {
+    background-image: url("https://cdn2.unrealengine.com/fortnite-fncs-2025-champion-drake-community-cup-1920x1080-3a82adf7d1b7.jpg");
+}
+
+.event-two {
+    background-image: url("https://admin.esports.gg/wp-content/uploads/2023/09/pasted-image-0-1-968x544.jpg");
+}
+
+.event-three {
+    background-image: url("https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/cfb6ebb769e22d1acdd43251129204484bab65ff-1920x1080.jpg");
 }
 
 .coming-up-card-description {
-    padding: 12px;
+    padding: 24px;
 }
+
+.coming-up-card-description h4 {
+    margin: 12px 0;
+}
+
+@media (max-width: 576px) {
+    .coming-up-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px; 
+    }
+
+    .d-flex {
+        flex-direction: column;
+    
+    }
+}
+/*---------------------------------*/
 
 /* Section Titles */
 .section-title {

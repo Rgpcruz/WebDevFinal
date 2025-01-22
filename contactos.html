@@ -1,68 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GAMESPHERE</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/style.css" rel="stylesheet">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMESPHERE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
+</head>
+
 <body>
 
- <!-- Navbar -->
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <div class="d-flex align-items-center">
-            <div class="navbar-brand logo"></div>
-            <a class="navbar-brand ms-2" href="/index.html">
-                <h1>GAME SPHERE</h1>
-            </a>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <div class="navbar-brand logo"></div>
+                <a class="navbar-brand ms-2" href="./index.html">
+                    <h1>GAMESPHERE</h1>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="torneios.html">EVENTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="forum.html">FORUM</a></li>
+                    <li class="nav-item"><a class="nav-link" href="loja.html">SHOP</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactos.html">CONTACTS</a></li>
+
+                    <!-- Shopping Cart Image Button -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                            aria-controls="offcanvasRight">
+                            <img class="icon-cart" src="./media/img/icon-cart.png" alt="Shopping Cart">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="torneios.html">EVENTS</a></li>
-                <li class="nav-item"><a class="nav-link" href="forum.html">FORUM</a></li>
-                <li class="nav-item"><a class="nav-link" href="loja.html">SHOP</a></li>
-                <li class="nav-item"><a class="nav-link" href="contactos.html">CONTACTS</a></li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                        <img class="icon-cart" src="/media/img/icon-cart.png" alt="Shopping Cart">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+    </nav>
 
     <!-- Contato Section -->
-<section id="contato" class="py-5">
-    <div class="container">
-        <h2 class="section-title">Contacts</h2>
-        <!-- Add an ID to the form for easier selection in JS -->
-        <form id="contactForm">
-            <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Seu nome">
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Seu email">
-            </div>
-            <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea class="form-control" id="message" rows="3" placeholder="Escreva sua mensagem"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send</button>
-        </form>
-    </div>
-</section>
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="section-title">Contacts</h2>
+            <!-- Add an ID to the form for easier selection in JS -->
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Seu nome">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Seu email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </section>
 
-<!-- Link to your contact form JavaScript -->
-<script src="/JS/contactform.js"></script>
+    <footer class="w-100">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-4"></div>
+                <div class="all-rights col-4 d-flex justify-content-center align-items-end">
+                    <p>&copy; 2025 Gamesphere. All rights reserved.</p>
+                </div>
+                <div class="col-4 d-flex justify-content-center">
+                    <div class="social-icons">
+                        <a href="https://www.twitch.tv/" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-twitch"></i></a>
+                        <a href="https://discord.com/" target="_blank" rel="noopener noreferrer"></a><i
+                            class="fa-brands fa-discord"></i>
+                        <a href="https://store.steampowered.com/"><i class="fa-brands fa-steam"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/?lang=en&mx=2"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to your contact form JavaScript -->
+    <script src="/JS/contactform.js"></script>
 
 </body>
-</html>
 
+</html>
