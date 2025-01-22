@@ -183,16 +183,15 @@
         </div>
     </div>
 
-    <!-- Offcanvas for Shopping Cart (Positioned at the top-right) -->
+<!-- Offcanvas for Shopping Cart (Positioned at the top-right) -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-        <!-- Content for the cart (can be populated dynamically) -->
+        <!-- Content for the cart -->
         <div id="cart-content">
-            <!-- Cart items will be displayed here -->
             <p>No items in the cart.</p>
         </div>
         
@@ -208,10 +207,7 @@
 
         <!-- Action Buttons: Buy & Clear Cart -->
         <div class="d-flex justify-content-between mt-3">
-            <!-- Buy Button -->
-            <button class="btn btn-success" onclick="completePurchase()">Buy</button>
-            
-            <!-- Clear Cart Button -->
+            <button class="btn btn-success mt-3" onclick="completePurchase()">Buy</button>
             <button class="btn btn-danger" onclick="clearCart()">Clear Cart</button>
         </div>
     </div>
