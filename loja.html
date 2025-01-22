@@ -183,19 +183,20 @@
         </div>
     </div>
 
-<!-- Offcanvas for Shopping Cart (Positioned at the top-right) -->
+    <!-- Offcanvas for Shopping Cart (Positioned at the top-right) -->
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
     <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-        <!-- Content for the cart -->
+        <!-- Content for the cart (can be populated dynamically) -->
         <div id="cart-content">
+            <!-- Cart items will be displayed here -->
             <p>No items in the cart.</p>
         </div>
         
-        <!-- Payment Method (Inside the offcanvas) -->
+        <!-- Payment Method -->
         <div class="mt-4">
             <label for="payment-method" class="form-label">Select Payment Method</label>
             <select id="payment-method" class="form-select">
@@ -207,7 +208,10 @@
 
         <!-- Action Buttons: Buy & Clear Cart -->
         <div class="d-flex justify-content-between mt-3">
+            <!-- Buy Button -->
             <button class="btn btn-success" onclick="completePurchase()">Buy</button>
+            
+            <!-- Clear Cart Button -->
             <button class="btn btn-danger" onclick="clearCart()">Clear Cart</button>
         </div>
     </div>
@@ -245,5 +249,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 <script src="/JS/cart.js"></script>
-<script src="/JS/loja.js"></script>
+<script src="./JS/loja.js"></script>
 </html>
