@@ -10,10 +10,15 @@ colours{
 }
 
 
+
 body {
     background-color:#181C23
 }
 
+
+h1 {
+    font-weight: 700;
+}
 
 h1 {
     font-weight: 700;
@@ -84,6 +89,7 @@ h1 {
 }
 
 /*------------Index / Hero Section------------------------*/
+/*------------Index / Hero Section------------------------*/
 
 .hero-background {
     background: url('./media/img/hero-img.jpg') no-repeat center center;
@@ -112,6 +118,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+/*------------Index / Most Played------------------------*/
 /*------------Index / Most Played------------------------*/
 
 h2 {
@@ -242,6 +249,7 @@ small {
 /* Section Titles */
 .section-title {
     margin: 60px 0 40px 0;
+    margin: 60px 0 40px 0;
     text-align: left;
 }
 
@@ -289,6 +297,7 @@ footer .fa-brands {
 /* Card Customization */
 
 
+/*---------------Store------------------*/
 /*---------------Store------------------*/
 
 .offcanvas.offcanvas-end {
