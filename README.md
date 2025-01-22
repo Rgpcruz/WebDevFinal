@@ -136,6 +136,9 @@ It was challenging to maintain a consistent style throughout the project, as eac
 
 One area for improvement is the shopping cart button, which only functions properly on the shop page. Despite our efforts to integrate the cart script across all pages, it consistently worked only on the shop page. This was our biggest technical challenge and would need to be addressed in future iterations.  
 
+## Project Flow
+
+https://github.com/users/Rgpcruz/projects/3
 
 ## Author
 https://github.com/BrunoBalmant
