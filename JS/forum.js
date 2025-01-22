@@ -56,7 +56,7 @@ function renderPosts() {
 
   // Exibe uma mensagem se não houver posts
   if (posts.length === 0) {
-    postsContainer.innerHTML = `<p class="text-white">Nenhum post ainda. Seja o primeiro a publicar!</p>`;
+    postsContainer.innerHTML = `<p class="text-white">No posts yet. Be the first to publish!</p>`;
   }
 }
 
@@ -116,7 +116,7 @@ function addComment(postIndex) {
   ).value;
 
   if (!commentName || !commentBody) {
-    alert("Por favor, preencha todos os campos de comentário.");
+    alert("Please fill in all the comment fields.");
     return;
   }
 
@@ -165,7 +165,7 @@ function deleteComment(postIndex, commentIndex) {
 
 // Função para excluir um post
 function deletePost(postIndex) {
-  if (confirm("Tem certeza que deseja excluir este post?")) {
+  if (confirm("Are you sure you want to delete this post?")) {
     posts.splice(postIndex, 1);
     renderPosts();
     renderLastPost();
@@ -174,7 +174,7 @@ function deletePost(postIndex) {
 //renderizar o ultimo post
 function renderLastPost() {
   if (posts.length === 0) {
-    lastPostContainer.innerHTML = `<p class="text-muted">Nenhum post disponível.</p>`;
+    lastPostContainer.innerHTML = `<p class="text-muted">No Post available.</p>`;
     return;
   }
 
