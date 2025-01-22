@@ -1,4 +1,6 @@
-/// Carregar carrinho do localStorage
+let cart = loadCart();  // Global variable to hold cart items
+
+// Carregar carrinho do localStorage
 function loadCart() {
   let cart = localStorage.getItem("cart");
   return cart ? JSON.parse(cart) : [];
@@ -92,7 +94,7 @@ function completePurchase() {
 // Atualiza o contador de itens no carrinho na navbar
 function updateCartCount() {
   let cartCount = document.getElementById("cart-count");
-  cartCount.textContent = cart.length; // Atualiza o número de itens no carrinho
+  cartCount.textContent = cart.reduce((total, item) => total + item.quantity, 0); // Updates the number of items in the cart
 }
 
 // Limpar o carrinho
